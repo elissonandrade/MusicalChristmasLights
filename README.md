@@ -1,7 +1,7 @@
 # MusicalChristmasLights
 A IoT project to control christmas lights to follow the rhythm of a music
 
-This project runs in a ESP26 board, which always reads the init.lua file first.
+This project runs in a ESP8226 NodeMCU board, which always reads the init.lua file first.
 The init.lua file is responsible for connecting to a local wireless network.
 It reads the SSID and the password from said network from a lua file not included in this repository, named login.lua.
 To connect to you local wireless network, simple create your own login.lua file, and define a global variable SSID with the ssid of the wi-fi network and
